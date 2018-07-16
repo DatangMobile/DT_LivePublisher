@@ -54,7 +54,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR+"\mysite\HTML", ],
+        'DIRS': [BASE_DIR+"\mysite\HTML", ],      # 添加模板路由
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
